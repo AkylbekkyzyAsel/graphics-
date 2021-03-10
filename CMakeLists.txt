@@ -18,7 +18,7 @@ endif()
 add_executable(triangle_test ${ASR_SOURCES} tests/triangle_test.cpp tests/triangle_test.cpp)
 target_link_libraries(triangle_test ${ASR_LIBRARIES})
 
-add_executable(circle_test ${ASR_SOURCES} tests/circle_test.cpp)
+add_executable(circle_test ${ASR_SOURCES} tests/circle_test.cpp tests/circle_test.cpp)
 target_link_libraries(circle_test ${ASR_LIBRARIES})
 
 add_executable(rectangle_test ${ASR_SOURCES} tests/rectangle_test.cpp)
